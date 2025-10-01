@@ -1,4 +1,4 @@
-# 🛍️ LALASIA — интернет-магазин
+# 🛍️ LALASIA — Online Store
 
 ![WordPress](https://img.shields.io/badge/CMS-WordPress-blue?logo=wordpress)  
 ![WooCommerce](https://img.shields.io/badge/Plugin-WooCommerce-purple?logo=woocommerce)  
@@ -6,40 +6,40 @@
 ![CSS3](https://img.shields.io/badge/Style-CSS3-blue?logo=css3)  
 ![JavaScript](https://img.shields.io/badge/JS-JavaScript-yellow?logo=javascript)
 
-Интернет-магазин, реализованный на **WordPress** с использованием **WooCommerce**, с акцентом на **ручную вёрстку** и стилизацию интерфейса.
+An online store built with **WordPress** and **WooCommerce**, with a strong focus on **custom layout** and **manual styling**.
 
 ---
 
-## 🌐 Демо
+## 🌐 Demo
 
-[Посмотреть демо сайта](https://developer-online.com/portfolio/lalasia/)
-
----
-
-## 🛠 Технологии и инструменты
-
-- **WordPress** — базовая CMS  
-- **WooCommerce** — для управления каталогом, корзиной и заказами  
-- **HTML5 / CSS3 / JavaScript** — весь интерфейс сверстан вручную  
-- Адаптивная вёрстка, кроссбраузерность  
+[View live demo](https://developer-online.com/portfolio/lalasia/)
 
 ---
 
-## ✨ Особенности проекта
+## 🛠 Tech Stack
 
-- Полностью кастомная вёрстка
-- Интеграция с WooCommerce для полноценной работы магазина  
-- Чистый CSS для стилизации  
-- Работа с интерактивными элементами на JavaScript  
+- **WordPress** — base CMS  
+- **WooCommerce** — e-commerce functionality (catalog, cart, orders)  
+- **HTML5 / CSS3 / JavaScript** — custom layout and interactivity  
+- Responsive and cross-browser support  
 
 ---
 
-## 📸 Демонстрация  
+## ✨ Features
 
-### Главная страница  
-![Главная страница](./main-page.png)  
+- Fully custom layout (not based on pre-made themes)  
+- WooCommerce integration for full store functionality  
+- Styling with CSS  
+- Interactive elements powered by JavaScript  
 
-### Каталог товаров  
-![Каталог товаров](./catalog.png)  
+---
+
+## 📸 Screenshots  
+
+### Homepage  
+![Homepage](./main-page.png)  
+
+### Product Catalog  
+![Product Catalog](./catalog.png)  
 
 ---
