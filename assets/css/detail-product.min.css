@@ -1,0 +1,179 @@
+.--showmore-active [data-fls-showmore-button] span,
+[data-fls-showmore-button] span:last-child {
+	display: none
+}
+
+.--showmore-active [data-fls-showmore-button] span:last-child {
+	display: block
+}
+
+.swiper-pagination-lock {
+	display: none;
+}
+
+.card {
+	padding-top: 6.25rem
+}
+
+.card__flex {
+	display: flex;
+	gap: 1.875rem 3.125rem
+}
+
+.card__slider {
+	flex: 0 0 calc(50% - 1.5625rem);
+	position: relative;
+	max-height: 700px;
+}
+
+.card__slide {
+	aspect-ratio: 600/600;
+	max-height: 580px;
+}
+
+.card__slide img {
+	height: 100%;
+	object-fit: cover;
+	width: 100%
+}
+
+.card__pagination {
+	bottom: 1.375rem;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%)
+}
+
+.card__info {
+	padding-top: 1.875rem
+}
+
+.card__name {
+	margin-bottom: .625rem
+}
+
+.card__descr-full,
+.card__descr-short {
+	color: var(--paragraph-color);
+	margin-bottom: 1.875rem
+}
+
+.card__descr-full {
+	line-height: 180%
+}
+
+.card__more {
+	color: var(--main-color);
+	margin-top: .3125rem
+}
+
+.card__price {
+	color: var(--text-color);
+	font-weight: 700;
+	line-height: 130%;
+	margin-bottom: 3.125rem
+}
+
+.card__price del {
+	font-size: 1.75rem;
+}
+
+.card__price ins {
+	text-decoration: none;
+}
+
+.card__btns {
+	display: flex;
+	gap: 1.25rem
+}
+
+.card__btn {
+	flex: 0 0 calc(50% - 0.625rem)
+}
+
+.related {
+	padding-top: 3.125rem
+}
+
+.related__title {
+	color: var(--text-color);
+	font-weight: 700;
+	letter-spacing: .01em;
+	line-height: 130%;
+	margin-bottom: 1.875rem
+}
+
+.related__wrapper {
+	display: flex;
+	gap: .9375rem 1.875rem
+}
+
+.related__wrapper .product-card {
+	flex: 0 0 calc(33.333% - 20px);
+}
+
+@media (max-width:47.99875em) {
+	.card {
+		padding-top: 3.125rem
+	}
+
+	.card__flex {
+		flex-direction: column
+	}
+
+	.card__pagination {
+		bottom: .625rem;
+		gap: .3125rem
+	}
+
+	.card__info {
+		padding-top: 0
+	}
+
+	.card__name {
+		margin-bottom: .25rem
+	}
+
+	.card__price {
+		margin-bottom: 1.875rem
+	}
+
+	.card__btns,
+	.related__wrapper {
+		flex-direction: column
+	}
+}
+
+@media (max-width:20em) {
+	.card__price {
+		font-size: 1.5rem
+	}
+
+	.related__title {
+		font-size: 1.125rem
+	}
+}
+
+@media (min-width:20em) and (max-width:79.375em) {
+	.card__price {
+		font-size: clamp(1.5rem, 1.07894736841875rem + 2.1052631579vw, 2.75rem)
+	}
+
+	.card__price del {
+		font-size: 1rem;
+	}
+
+	.related__title {
+		font-size: clamp(1.125rem, .83026315789375rem + 1.4736842105vw, 2rem)
+	}
+}
+
+@media (min-width:79.375em) {
+	.card__price {
+		font-size: 2.75rem
+	}
+
+	.related__title {
+		font-size: 2rem
+	}
+}
